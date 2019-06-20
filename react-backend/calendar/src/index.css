@@ -1,0 +1,79 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#calendar hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#calendar {
+  position: relative;
+  width: 250px;
+}
+
+.eventField {
+  width: 200px;
+  height: 541px;
+}
+
+.event {
+  position: relative;
+  background-color: #E2ECF5;
+  border-left: 3px solid #6E9ECF;
+  font-size: 14px;
+}
+
+.hour {
+  height: 29px;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.halfAnHour {
+  height: 29px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.close {
+  position: relative;
+  margin: 0;
+  padding: 0 2px 0 2px;
+  float: right;
+}
+
+#root {
+  position: absolute;
+  margin-left: 50px;
+}
+
+.userField {
+  background-color: #fffeee;
+  position: absolute;
+  padding: 10px;
+  width: 220px;
+  left: 300px;
+  top: 20px;
+ }
+
+.showEventsContainer {
+  left: 550px;
+  top: 20px;
+  width: 200px;
+  position: absolute;
+  background-color: azure;
+}
+
+.formContainer {
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid saddlebrown;
+}
+
+.formButton {
+  margin: 2px;
+}
